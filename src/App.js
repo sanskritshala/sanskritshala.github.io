@@ -10,6 +10,7 @@ import Publications from './pages/publications';
 import Team from './pages/team';
 import JJ from './pages/jj';
 import Resources from './pages/Resources'
+import Dp from './pages/Dp';
 function App() {
   WebFont.load({
     google:{
@@ -28,6 +29,7 @@ function App() {
         <Route path="/team" element={<Team/>} />
         <Route path="/jj" element={<JJ/>}/>
         <Route path="/resources" element={<Resources/>} />
+        <Route path='/dp' element={<Dp/>}/>
       </Routes>
     </Router>
   
