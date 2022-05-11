@@ -25,11 +25,6 @@ function Dp() {
   return (
       <div className='dp'  >
 
-          <div style={{color:'black',margin:12,padding:12,borderStyle:'solid',
-        backgroundImage:'linear-gradient(45deg,'+valcolor+')'
-        }} >
-              Val
-          </div>
           <Helmet>
           <script src='leader-line.min.js' ></script>
           
@@ -153,7 +148,7 @@ Tag selected: <span style={{color:'black',backgroundColor:color[tag],borderRadiu
                   Object.keys(display).map(val=>(
                       <span id={val} className='dpwords'
                       style={{color:'black',
-                      backgroundColor:color[data[val].tags] ,
+                      backgroundColor:color[data[val].tag] ,
                       backgroundImage:data[val].colors.length?data[val].colors:''
                     }}
                     
@@ -206,7 +201,7 @@ settags(tagval)
               </div>
               {
                   Object.keys(data).map(val=>(
-                      data[val].w2&&data[val].k1<data[val].k2 ? <Xarrow start={(data[val].k1).toString()} path={'grid'} end={(data[val].k2).toString()} curveness={2} color={color[data[val].tags]}
+                      data[val].w2&&data[val].k1<data[val].k2 ? <Xarrow start={(data[val].k1).toString()} path={'grid'} end={(data[val].k2).toString()} curveness={2} color={color[data[val].tag]}
                       
                      startAnchor={'top'}
                      endAnchor={'top'  }
@@ -245,11 +240,11 @@ settags(tagval)
                      arrowHeadProps={{
                          startOffset:data[val].k2*22
                      }}
-                     labels={<div style={{color:'white',backgroundColor:color[data[val].tags],fontSize:11,borderRadius:6,padding:2,zIndex:11,
+                     labels={<div style={{color:'white',backgroundColor:color[data[val].tag],fontSize:11,borderRadius:6,padding:2,zIndex:11,
                     position:'absolute',bottom:(33+(Math.abs(data[val].k1-data[val].k2)*16+Math.max(data[val].k1,data[val].k2)*2))/7 ,
 
                     
-                    }} >{data[val].tags} </div>}
+                    }} >{data[val].tag} </div>}
                       />  :''
                   ))
               }
