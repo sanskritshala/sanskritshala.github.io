@@ -7,8 +7,16 @@ import {slide as Menu} from 'react-burger-menu'
 import {  useNavigate } from 'react-router-dom';
 import SideBar from "../custom/sidebar";
 import Title from '../custom/title.js'
+import Chatbox from '../custom/chatbox';
 function Home({width}) {
+  const [cbox,setcbox]=useState(1);
     const [val,setval]=useState({})
+    var [cc,setcc]=useState([{
+        bot:'Hi! I\'m a Bot. Let me know if you have any questions regarding our tool!',
+    },
+    {bot:'Select the topic or write your question below.'
+    },
+    ]);
     let navigate=useNavigate();
     function Nav(){
         navigate('/jj')
@@ -28,6 +36,7 @@ function Home({width}) {
 
               </div>
         </div>
+        <Chatbox setval={setcbox} val={cbox} cc={cc} setcc={setcc}/>
         <br/>
         <Details/>
         

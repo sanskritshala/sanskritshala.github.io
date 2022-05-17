@@ -12,35 +12,21 @@ function publications({width}) {
           Publications
           </div>
           <div className='publicationstitle' >
-          Journal Papers
+          Conferences
           </div>
-          <li>Jana, Abhik, Haldar, Siddhant and Goyal, Pawan (2021). Network Embeddings from Distributional Thesauri for Improving Static Word Representations. Expert Systems with Applications (accepted).</li>
-          <li>Nayak, Tapas, Majumder, Navonil, Goyal, Pawan and Poria, Soujanya (2021). Deep Neural Approaches to Relation Triplets Extraction: A Comprehensive Survey. Cognitive Computation (accepted).</li>
-          <li>Das, Kishalay, Samanta, Bidisha, Goyal, Pawan, Lee, Seung-Cheol, Bhattacharjee, Satadeep and Ganguly, Niloy (2022). CrysXPP: An Explainable Property Predictor for Crystalline Materials. npj Computational Materials (accepted).</li>
-          <li>Ghosh, Krishnendu, Nangi, Sharmila Reddy, Kanchugantla, Yashasvi, Rayapati, Pavan Gopal, Bhowmick, Plaban Kumar and Goyal, Pawan (2021). Augmenting Video Lectures: Predicting Off-topic Concepts and Linking to Relevant Video Lecture Segments. International Journal of Artificial Intelligence in Education, Springer (accepted).</li>
-          <div className='publicationstitle' >
-          Conference Papers
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Om Adideva, Digumarthi Komal, Laxmidhar Behera, Pawan Goyal. 2021. Evaluating Neural Word Embeddings for Sanskrit. In Proceedings of the World Sanskrit Conference [Accepted]</li>
+          <li>Amrith Krishna, Ashim Gupta, Deepak Garasangi, <span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Pavankumar Satuluri, Pawan Goyal. 2021. Neural Approaches for Data-Driven Dependency Parsing in Sanskrit. World Sanskrit Conference. [Accepted]</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Amrith Krishna, Pawan Goyal, and Laxmidhar Behera. 2019. Revisiting the role of feature engineering for compound type identification in Sanskrit. In Proceedings of the 6th International Sanskrit Computational Linguistics Symposium, pages 28–44, Association for Computational Linguistics [Accepted]</li>
+           <div className='publicationstitle' >
+          Workshops
           </div>
-          <li>Jana, Abhik, Haldar, Siddhant and Goyal, Pawan (2021). Network Embeddings from Distributional Thesauri for Improving Static Word Representations. Expert Systems with Applications (accepted).</li>
-          <li>Nayak, Tapas, Majumder, Navonil, Goyal, Pawan and Poria, Soujanya (2021). Deep Neural Approaches to Relation Triplets Extraction: A Comprehensive Survey. Cognitive Computation (accepted).</li>
-          <li>Das, Kishalay, Samanta, Bidisha, Goyal, Pawan, Lee, Seung-Cheol, Bhattacharjee, Satadeep and Ganguly, Niloy (2022). CrysXPP: An Explainable Property Predictor for Crystalline Materials. npj Computational Materials (accepted).</li>
-          <li>Ghosh, Krishnendu, Nangi, Sharmila Reddy, Kanchugantla, Yashasvi, Rayapati, Pavan Gopal, Bhowmick, Plaban Kumar and Goyal, Pawan (2021). Augmenting Video Lectures: Predicting Off-topic Concepts and Linking to Relevant Video Lecture Segments. International Journal of Artificial Intelligence in Education, Springer (accepted).</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Amrith Krishna, Ashim, Gupta, Pawan Goyal, and Laxmidhar Behera. 2021. A Little Pretraining Goes a Long Way: A Case Study on Dependency Parsing Task for Low-resource Morphologically Rich Languages. Proceedings of the European Chapter of the Association for Computational Linguistics: the Student Research Workshop. [Accepted].</li>
           
           <div className='publicationstitle' >
-          Workshop Papers
+          Preprints
           </div>
-          <li>Jana, Abhik, Haldar, Siddhant and Goyal, Pawan (2021). Network Embeddings from Distributional Thesauri for Improving Static Word Representations. Expert Systems with Applications (accepted).</li>
-          <li>Nayak, Tapas, Majumder, Navonil, Goyal, Pawan and Poria, Soujanya (2021). Deep Neural Approaches to Relation Triplets Extraction: A Comprehensive Survey. Cognitive Computation (accepted).</li>
-          <li>Das, Kishalay, Samanta, Bidisha, Goyal, Pawan, Lee, Seung-Cheol, Bhattacharjee, Satadeep and Ganguly, Niloy (2022). CrysXPP: An Explainable Property Predictor for Crystalline Materials. npj Computational Materials (accepted).</li>
-          <li>Ghosh, Krishnendu, Nangi, Sharmila Reddy, Kanchugantla, Yashasvi, Rayapati, Pavan Gopal, Bhowmick, Plaban Kumar and Goyal, Pawan (2021). Augmenting Video Lectures: Predicting Off-topic Concepts and Linking to Relevant Video Lecture Segments. International Journal of Artificial Intelligence in Education, Springer (accepted).</li>
-          
-          <div className='publicationstitle' >
-          Book Chapters
-          </div>
-          <li>Jana, Abhik, Haldar, Siddhant and Goyal, Pawan (2021). Network Embeddings from Distributional Thesauri for Improving Static Word Representations. Expert Systems with Applications (accepted).</li>
-          <li>Nayak, Tapas, Majumder, Navonil, Goyal, Pawan and Poria, Soujanya (2021). Deep Neural Approaches to Relation Triplets Extraction: A Comprehensive Survey. Cognitive Computation (accepted).</li>
-          <li>Das, Kishalay, Samanta, Bidisha, Goyal, Pawan, Lee, Seung-Cheol, Bhattacharjee, Satadeep and Ganguly, Niloy (2022). CrysXPP: An Explainable Property Predictor for Crystalline Materials. npj Computational Materials (accepted).</li>
-          <li>Ghosh, Krishnendu, Nangi, Sharmila Reddy, Kanchugantla, Yashasvi, Rayapati, Pavan Gopal, Bhowmick, Plaban Kumar and Goyal, Pawan (2021). Augmenting Video Lectures: Predicting Off-topic Concepts and Linking to Relevant Video Lecture Segments. International Journal of Artificial Intelligence in Education, Springer (accepted).</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Laxmidhar Behera, Pawan Goyal 2022. Systematic Investigation of Strategies Tailored for Low-Resource Settings for Sanskrit Dependency Parsing.</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Ayush Daksh, Om Adideva Paranjay, Laxmidhar Behera, Pawan Goyal 2022. Prabhupadavani: A Code-mixed Speech Translation Data for 26 Languages. </li>
           
       </div>
 

@@ -177,8 +177,8 @@ Tag selected: <span style={{color:'black',backgroundColor:color[tag],borderRadiu
                               jj[k2].k2=k1;
                               jj[k1].color=color[tag];
                               jj[k2].color=color[tag] ;
-                              jj[k1].tag=tag
-                              jj[k2].tag=tag
+                              jj[k1].tags=tag
+                              jj[k2].tags=tag
                               jj[k1].colors.push(color[tag])
                               jj[k2].colors.push(color[tag])
 
@@ -201,7 +201,7 @@ settags(tagval)
               </div>
               {
                   Object.keys(data).map(val=>(
-                      data[val].w2&&data[val].k1<data[val].k2 ? <Xarrow start={(data[val].k1).toString()} path={'grid'} end={(data[val].k2).toString()} curveness={2} color={color[data[val].tag]}
+                      data[val].w2&&data[val].k1<data[val].k2 ? <Xarrow start={(data[val].k1).toString()} path={'grid'} end={(data[val].k2).toString()} curveness={2} color={color[data[val].tags]}
                       
                      startAnchor={'top'}
                      endAnchor={'top'  }
@@ -240,11 +240,11 @@ settags(tagval)
                      arrowHeadProps={{
                          startOffset:data[val].k2*22
                      }}
-                     labels={<div style={{color:'white',backgroundColor:color[data[val].tag],fontSize:11,borderRadius:6,padding:2,zIndex:11,
+                     labels={<div style={{color:'white',backgroundColor:color[data[val].tags],fontSize:11,borderRadius:6,padding:2,zIndex:11,
                     position:'absolute',bottom:(33+(Math.abs(data[val].k1-data[val].k2)*16+Math.max(data[val].k1,data[val].k2)*2))/7 ,
 
                     
-                    }} >{data[val].tag} </div>}
+                    }} >{data[val].tags} </div>}
                       />  :''
                   ))
               }
