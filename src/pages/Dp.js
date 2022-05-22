@@ -166,9 +166,9 @@ Tag selected: <span style={{color:'black',backgroundColor:color[tag],borderRadiu
                           setdisplay(jj)
                           let vc=['red','green']
                           $('#'+val).css({
-                        backgroundImage:'linear-gradient(45deg,'+display[val].color+')',
-                        // backgroundColor:display[val].color,
-                        color:'white'
+                            backgroundColor:display[val].color.length==1?display[val].color[0]:'' ,
+                            backgroundImage:display[val].color.length>1?'linear-gradient(45deg,'+display[val].color +')':'',
+                            color:'white'
                         })
                           num++;
                           if(num==3){
