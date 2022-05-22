@@ -27,7 +27,7 @@ function Chatbox({setval,val,cc,setcc}) {
     // })
     jj.reverse();
     return (
-        <div className='chatbox' style={{zIndex:1111}} >
+        <div className='chatbox' style={{zIndex:1111,position:'fixed'}} >
             <div className='chatboxchatarea'>
                 <div className='chatarea' >
                 {responses[jj[0].bot]&& <div style={{

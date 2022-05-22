@@ -63,7 +63,6 @@
 }
 .dpwords:hover{
     cursor: pointer;
-    background-color: #8a2be2;
 }
 .searchicon{
     color: white;
@@ -75,15 +74,13 @@
 .searchoptions{
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    padding: 2px;
+    padding: 8px;
+    color: white;
 }
 .searchoptions:hover{
     cursor: pointer;
     background-color: hotpink;
     
-}
-Xarrow{
-    cursor: pointer;
 }
 ::-webkit-scrollbar{
     width: 0px;
@@ -116,14 +113,17 @@ Xarrow{
 }
 .searchwindow{
     color:'black';
-    background-color:pink;
+    background-color:blue;
     height:188px;
     width:188px;
     position:absolute;
     right:0px;
     top:0px;
+    z-index: 11;
     transition: all 1s;
+    border: solid;
 }
+
 button:hover{
     cursor: pointer;
 }
