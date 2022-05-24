@@ -15,14 +15,13 @@ function Dp() {
     const [toggle,settoggle]=useState(0)
     
     const [searchtag,setsearchtag]=useState('')
-
+    console.log(display)
     let numval=18*Math.random()
     let color={'samucciwam': 'rgb(151,151,151)', 'axikaranam': 'rgb(40.892404046057756,195.90212002826695,248.29351969076725)', 'karmasamanaxikaranam': 'rgb(80.76486511906698,52.51440400293031,53.08090307846933)', 'karma': 'rgb(88.5884063088804,203.67910423153953,209.90796543767718)', 'sampraxanam': 'rgb(129.61976034829996,229.08347665891358,173.3997126553231)', 'apaxanam': 'rgb(228.43215159482878,227.79103939439756,164.96817855566414)', 'bavalakranasapwami_samanakalah': 'rgb(62.66904930870843,129.16280789049665,87.1932825655106)', 'karanam': 'rgb(40.934260339109095,211.0082341777622,43.83889586912186)', 'prawiyogi': 'rgb(137.1310137798212,16.568779621860443,74.52970531571357)', 'anuyogi': 'rgb(63.80087183168032,157.6029046976205,78.49846088699618)', 'root': 'rgb(110.55401377865476,44.29834990456047,198.69765003909146)', 'karwqsamanaxikaranam': 'rgb(25.7895756160927,32.093979258717745,26.327904868555837)', 'rartisambanxah': 'rgb(144.3227317950415,144.5790378977648,231.3117286758576)', 'purvakalah': 'rgb(95.2544330750636,184.51382417829535,72.09252948336751)', 'upapaxasambanxah': 'rgb(69.44475016890506,133.2935468459755,83.99722071535241)', 'waxarwyam': 'rgb(61.463645799040926,26.082897978324898,162.25828698139338)', 'hewuh': 'rgb(6.673138254210781,226.72974767628264,91.26865517995041)', 'kriyaviseranam': 'rgb(176.11552945879745,240.75046624369853,234.98471431815648)', 'viseranam': 'rgb(250.28726103194137,103.98357591697282,13.88006310154271)', 'sambanxah': 'rgb(129.19527775529997,158.05623007107332,40.577465250224115)', 'samboxyah': 'rgb(70.12094532173067,152.7382702021216,209.3796755632114)', 'prayojanam': 'rgb(15.663448901199954,189.05485993705983,116.69688888451144)', 'karwa': 'rgb(37.632586745822074,74.82709935392526,79.74058327798153)'}
     var num=1,k1=-1,k2=-1;
     const[tags,settags]=useState({'prayojanam': 1, 'sampraxanam': 0, 'purvakalah': 0, 'samucciwam': 0, 'anuyogi': 0, 'karwqsamanaxikaranam': 0, 'bavalakranasapwami_samanakalah': 0, 'hewuh': 0, 'apaxanam': 0, 'root': 0, 'samboxyah': 0, 'upapaxasambanxah': 0, 'karma': 0, 'karmasamanaxikaranam': 0, 'axikaranam': 0, 'sambanxah': 0, 'waxarwyam': 0, 'kriyaviseranam': 0, 'prawiyogi': 0, 'karanam': 0, 'karwa': 0, 'viseranam': 0, 'rartisambanxah': 0}    
         )
         let valcolor=['red','green','pink','yellow']
-    
   return (
       <div className='dp'  >
 
@@ -42,7 +41,7 @@ function Dp() {
               var jj={},jl=input.split(' '),jdata={};
               for(let j=0;j<jl.length;j++){
                 jj[j+1] ={w1:jl[j],color:[],w:''}
-                jdata[j+1]={w1:jl[j],colors:[]}
+                jdata[j+1]={w1:jl[j],color:[]}
                 //   jj[j+1].color=' ';
                 //   jj[j+1].w=''
               }
@@ -152,7 +151,7 @@ Tag selected: <span style={{color:'black',backgroundColor:color[tag],borderRadiu
                   Object.keys(display).map(val=>(
                       <span id={val} className='dpwords'
                       style={{
-                          color:display[val].color.length>''?'white':'black',
+                        color:display[val].color.length>''?'white':'black',
                         backgroundColor:display[val].color.length==1?display[val].color[0]:'' ,
                         backgroundImage:display[val].color.length>1?'linear-gradient(45deg,'+display[val].color +')':'',
                     
@@ -185,7 +184,6 @@ Tag selected: <span style={{color:'black',backgroundColor:color[tag],borderRadiu
                             //   jj[k2].color=color[tag] ;
                               jj[k1].tags=tag
                             //   jj[k2].tags=tag
-                              jj[k1].colors.push(color[tag])
                             //   jj[k2].colors.push(color[tag])
 
 
@@ -200,7 +198,6 @@ settags(tagval)
                           }
                           if(num==2){
                               k1=val;
-                              console.log(data[k1].w2)
                               if(data[k1].w2){
                                   var jj=display
                                   jj[data[k1].k2].color=[]
@@ -232,6 +229,7 @@ settags(tagval)
                         },
                          onClick:()=>{
                          var jj=data,j=display,jl=[],l;
+                         console.log(j,display)
                          for(l=0;l<display[data[val].k2].color.length;l++){
                              if(display[data[val].k2].color[l]==data[val].color)
                              break;
@@ -242,7 +240,7 @@ settags(tagval)
                          }
                          j[data[val].k2].color=jl
                          j[val].color=[]
-                         jj[data[val].k1]={w1:data[val].w1,colors:[]}
+                         jj[data[val].k1]={w1:data[val].w1,color:[]}
                          setdisplay(j)
                          setdata(jj)
                          var tagval=                        {'prayojanam': 1, 'sampraxanam': 0, 'purvakalah': 0, 'samucciwam': 0, 'anuyogi': 0, 'karwqsamanaxikaranam': 0, 'bavalakranasapwami_samanakalah': 0, 'hewuh': 0, 'apaxanam': 0, 'root': 0, 'samboxyah': 0, 'upapaxasambanxah': 0, 'karma': 0, 'karmasamanaxikaranam': 0, 'axikaranam': 0, 'sambanxah': 0, 'waxarwyam': 0, 'kriyaviseranam': 0, 'prawiyogi': 0, 'karanam': 0, 'karwa': 0, 'viseranam': 0, 'rartisambanxah': 0}    
@@ -285,7 +283,14 @@ settags(tagval)
                     
                 setdata(filedata[dataval])
                 setdisplay(filedata[dataval])
-                }
+                var jj=filedata[dataval]
+                Object.keys(jj).map(val=>{
+                    jj[filedata[dataval][val].k1].color.push(color[filedata[dataval][val].tags])
+                    jj[filedata[dataval][val].k2].color.push(color[filedata[dataval][val].tags])
+                })
+                setdisplay(jj)
+          
+            }
             }}
             > <FaArrowLeft color='white' style={{color:'white',alignSelf:'center'}} /> </button>
             <span style={{color:'black',padding:11}} >{dataval} </span>
@@ -293,7 +298,12 @@ settags(tagval)
             onClick={()=>{
                 setdataval(dataval+1)
                 setdata(filedata[dataval])
-                setdisplay(filedata[dataval])
+                var jj=filedata[dataval]
+                Object.keys(jj).map(val=>{
+                    jj[filedata[dataval][val].k1].color.push(color[filedata[dataval][val].tags])
+                    jj[filedata[dataval][val].k2].color.push(color[filedata[dataval][val].tags])
+                })
+                setdisplay(jj)
             }}
             ><FaArrowRight color='white' style={{color:'white',alignSelf:'center'}}
             
