@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e45217ce.css",
-    "main.js": "/static/js/main.24be104c.js",
+    "main.css": "/static/css/main.ad2c2d53.css",
+    "main.js": "/static/js/main.7ed123db.js",
     "static/js/787.f66d7f33.chunk.js": "/static/js/787.f66d7f33.chunk.js",
     "static/media/wallpaper.jpg": "/static/media/wallpaper.f1192e6581cfda5bcdb9.jpg",
     "static/media/pawangoyal.jpg": "/static/media/pawangoyal.be404a4bc9ab6cf0205b.jpg",
@@ -13,15 +13,14 @@
     "static/media/roboto-cyrillic-400-normal.woff2": "/static/media/roboto-cyrillic-400-normal.5e493812deabd1d01e60.woff2",
     "static/media/roboto-greek-400-normal.woff2": "/static/media/roboto-greek-400-normal.1cbfc636c911faa4d0ca.woff2",
     "static/media/roboto-vietnamese-400-normal.woff2": "/static/media/roboto-vietnamese-400-normal.c0bec65d01f776c00c91.woff2",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.bb723e8458c9c653e505.woff2",
     "index.html": "/index.html",
-    "main.e45217ce.css.map": "/static/css/main.e45217ce.css.map",
-    "main.24be104c.js.map": "/static/js/main.24be104c.js.map",
+    "main.ad2c2d53.css.map": "/static/css/main.ad2c2d53.css.map",
+    "main.7ed123db.js.map": "/static/js/main.7ed123db.js.map",
     "787.f66d7f33.chunk.js.map": "/static/js/787.f66d7f33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e45217ce.css",
-    "static/js/main.24be104c.js"
+    "static/css/main.ad2c2d53.css",
+    "static/js/main.7ed123db.js"
   ]
 }
