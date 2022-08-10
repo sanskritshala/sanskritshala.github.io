@@ -61,6 +61,7 @@ function Chatbox({setval,val,cc,setcc}) {
                                 backgroundColor:'orange',
                                 paddingLeft:12,
                                 paddingRight:12,
+                                paddingTop:12,
                                 borderTopRightRadius:12,
                                 borderBottomRightRadius:12,
                                 borderTopLeftRadius:4,
@@ -150,9 +151,9 @@ function Chatbox({setval,val,cc,setcc}) {
             >
 
                 <img src={chatbot} style={{borderRadius:'50%',marginTop:4,marginBottom:4,marginLeft:4}} />
-                <p style={{color:'white',alignSelf:'center',paddingLeft:12}} >
+                <span style={{color:'white',alignSelf:'center',paddingLeft:12}} >
                     Sanskrit Bot
-                    </p>
+                    </span>
                 <FaFacebookMessenger color='white' className='chattitleicon' style={{alignSelf:'center',
             transition:'color .4s'    ,paddingRight:12
             }}

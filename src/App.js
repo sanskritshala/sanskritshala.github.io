@@ -1,16 +1,16 @@
-import logo from './logo.svg';
-import {BrowserRouter as Router, Route, Routes,Link, Outlet,useNavigate} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Home from '../src/pages/home'
 import React, { useState } from 'react';
 import WebFont from 'webfontloader';
-import Title from './custom/title';
-import Documentation from './pages/documentation';
 import Publications from './pages/publications';
 import Team from './pages/team';
 import JJ from './pages/jj';
 import Resources from './pages/Resources'
 import Dp from './pages/Dp';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Old_Dp from './pages/Old_Dp';
+
 function App() {
   WebFont.load({
     google:{
@@ -32,7 +32,6 @@ function App() {
         <Route path='/dp' element={<Dp/>}/>
       </Routes>
     </Router>
-  
   </div>
   );
 }

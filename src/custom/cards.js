@@ -16,20 +16,6 @@ function Cards({vid,title,vcolor1,vcolor2,...props}) {
       <div className='tile' id={vid} style={{backgroundImage:'linear-gradient(90deg,'+vcolor1+','+vcolor2+')',
     borderColor:vcolor1
     }} 
-      onMouseEnter={()=>{
-        /*  $(vvid).css({backgroundColor:'black',
-          position:'fixed',
-          top:'10%',
-          left:'10%',
-          height:600,
-          width:'80%',
-          zIndex:1,
-        })*/
-      }}
-      onMouseLeave={()=>{
-        //$(vvid).css({backgroundColor:'',position:''})
-
-    }}
       >
         <div style={{
       }} >
