@@ -11,6 +11,13 @@ import Dp from './pages/Dp';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Old_Dp from './pages/Old_Dp';
 
+// function CC() {
+//   // 👇️ redirect to external URL
+//   window.location.replace('http://172.29.92.118:4040/');
+
+//   return null;
+// }
+
 function App() {
   WebFont.load({
     google:{
@@ -30,6 +37,7 @@ function App() {
         <Route path="/jj" element={<JJ/>}/>
         <Route path="/resources" element={<Resources/>} />
         <Route path='/dp' element={<Dp/>}/>
+        {/* <Route path="/CC" element={<CC />} /> */}
       </Routes>
     </Router>
   </div>

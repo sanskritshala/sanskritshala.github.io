@@ -25,13 +25,14 @@ function team({width}) {
     </div>
     <div style={{textAlign:'left',paddingTop:20}} >
     <div className='listnames' >1. Jivnesh Sandhan, IIT Kanpur </div>
+    <div className='listnames' >2. Rathin Singha, UCLA </div>
+    <div className='listnames' >3. Amrith Krishna, Uniphore </div>
     </div>
     <div style={{color:'grey',textAlign:'left',fontSize:20,marginLeft:10,marginTop:30}} >
       M.Tech Students
     </div>
     <div style={{textAlign:'left',paddingTop:20}} >
-    <div className='listnames' >1. Rathin Singha, UCLA </div>
-    <div className='listnames' >2. Narein Rao, IIT Kanpur </div>
+    <div className='listnames' >1. Narein Rao, IIT Kanpur </div>
     </div>
     <div style={{color:'grey',textAlign:'left',fontSize:20,marginLeft:10,marginTop:30}} >
       B.Tech Students
@@ -40,6 +41,7 @@ function team({width}) {
     <div className='listnames' >1. Hrithik Sharma, IIT Kanpur </div>
     <div className='listnames' >2. Anshul Agarwal, IIT Kanpur </div>
     <div className='listnames' >3. Ayush Daksh, IIT Kharagpur </div>
+    <div className='listnames' >4. Ashish Gupta, IIT Kharagpur </div>
     </div>
     </div>
 

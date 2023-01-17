@@ -15,10 +15,8 @@ function Title({width,page}) {
 
           {<div display='false' className='pages' >
               <Link to='/' className='span' style={{color:page=='Home'?'blue':''}} ><FaHome style={{verticalAlign:'baseline'}} /> Home</Link>
-              <div onClick={()=>{
-                  window.open()
-              }}  className='span' style={{color:page=='Documentation'?'blue':''}}><FaFile/>  Documentation</div>
-              <div  className='span' style={{color:page=='Blogs'?'blue':''}}onClick={()=>{window.open('https://agrawalanshul053.github.io/') }} ><FaBlog/> Blogs</div>
+              {/* <div onClick={()=>{window.open()}}  className='span' style={{color:page=='Documentation'?'blue':''}}><FaFile/>  Documentation</div> */}
+              {/* <div  className='span' style={{color:page=='Blogs'?'blue':''}}onClick={()=>{window.open('https://agrawalanshul053.github.io/') }} ><FaBlog/> Blogs</div> */}
               <Link to='/resources' className='span' style={{color:page=='Resources'?'blue':''}}><FaReadme/> Resources</Link>
               <Link to='/publications' className='span' style={{color:page=='Publications'?'blue':''}}><FaPagelines/>  Publications</Link>
               <Link to='/team' className='span' style={{color:page=='Team'?'blue':''}}><FaTeamspeak/> Team</Link>

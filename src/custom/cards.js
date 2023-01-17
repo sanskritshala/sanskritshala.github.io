@@ -25,7 +25,7 @@ function Cards({vid,title,vcolor1,vcolor2,...props}) {
           
         </div>
         <div className='description' >
-        Section overview goes here. Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+        Please click here to get started with this task. This application is integrated with our pretrained state-of-the-art model. You may use it for creating annotated dataset.
         </div>
       </div>
   </div>;

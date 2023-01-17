@@ -14,19 +14,37 @@ function publications({width}) {
           <div className='publicationstitle' >
           Conferences
           </div>
-          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Om Adideva, Digumarthi Komal, Laxmidhar Behera, Pawan Goyal. 2021. Evaluating Neural Word Embeddings for Sanskrit. In Proceedings of the World Sanskrit Conference [Accepted]</li>
-          <li>Amrith Krishna, Ashim Gupta, Deepak Garasangi, <span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Pavankumar Satuluri, Pawan Goyal. 2021. Neural Approaches for Data-Driven Dependency Parsing in Sanskrit. World Sanskrit Conference. [Accepted]</li>
-          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Amrith Krishna, Pawan Goyal, and Laxmidhar Behera. 2019. Revisiting the role of feature engineering for compound type identification in Sanskrit. In Proceedings of the 6th International Sanskrit Computational Linguistics Symposium, pages 28–44, Association for Computational Linguistics [Accepted]</li>
+    
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Laxmidhar Behera, Pawan Goyal. Systematic Investigation of Strategies
+Tailored for Low-Resource Settings for Low-Resource Dependency Parsing. Proceedings
+of the European Chapter of the Association for Computational Linguistics, EACL 2023*,
+Dubrovnik, Croatia. [Communicated]</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Rathin Singha, Narein Rao, Suvendu Samanta, Laxmidhar Behera,
+Pawan Goyal. TransLIST: A Transformer-Based Linguistically Informed Sanskrit Tokenizer.
+Proceedings of the Conference on Empirical Methods in Natural Language Processing,
+EMNLP (Findings) 2022, Abu Dhabi</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Ashish Gupta, Hrishikesh Terdalkar, Tushar Sandhan, Suvendu Samanta,
+Laxmidhar Behera and Pawan Goyal. A Novel Multi-Task Learning Approach for ContextSensitive Compound Type Identification in Sanskrit. Proceedings of International Conference on Computational Linguistics, COLING 2022, Republic of Korea</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Om Adideva, Digumarthi Komal, Laxmidhar Behera, Pawan Goyal. Evaluating Neural Word Embeddings for Sanskrit. In Proceedings of the World Sanskrit Conference, WSC 2023, Canberra, Australia.</li>
+          <li>Amrith Krishna, Ashim Gupta, Deepak Garasangi, <span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Pavankumar Satuluri, Pawan Goyal. Neural Approaches for Data-Driven Dependency Parsing in Sanskrit. World Sanskrit Conference, WSC 2023, Canberra, Australia</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Amrith Krishna, Pawan Goyal, and Laxmidhar Behera. Revisiting the
+role of feature engineering for compound type identification in Sanskrit. In Proceedings of
+the 6th International Sanskrit Computational Linguistics Symposium, ISCLS 2019, Kharagpur, India.</li>
            <div className='publicationstitle' >
           Workshops
           </div>
-          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Amrith Krishna, Ashim, Gupta, Pawan Goyal, and Laxmidhar Behera. 2021. A Little Pretraining Goes a Long Way: A Case Study on Dependency Parsing Task for Low-resource Morphologically Rich Languages. Proceedings of the European Chapter of the Association for Computational Linguistics: the Student Research Workshop. [Accepted].</li>
+          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Amrith Krishna, Ashim, Gupta, Pawan Goyal, and Laxmidhar Behera.
+A Little Pretraining Goes a Long Way: A Case Study on Dependency Parsing Task for Lowresource Morphologically Rich Languages. Proceedings of the European Chapter of the
+Association for Computational Linguistics, EACL-SRW 2021, Ukraine</li>
+<li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Ayush Daksh, Om Adideva Paranjay, Laxmidhar Behera, Pawan Goyal.
+Prabhupadavani: A Code-mixed Speech Translation Data for 26 Languages. Proceedings of International Conference on Computational Linguistics Workshop on Computational
+Linguistics for Cultural Heritage, Social Sciences, Humanities, and Literature, COLINGLaTeCH-CLfL 2022, Gyeongju, Republic of Korea</li>
           
           <div className='publicationstitle' >
           Preprints
           </div>
           <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Laxmidhar Behera, Pawan Goyal 2022. Systematic Investigation of Strategies Tailored for Low-Resource Settings for Sanskrit Dependency Parsing.</li>
-          <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Ayush Daksh, Om Adideva Paranjay, Laxmidhar Behera, Pawan Goyal 2022. Prabhupadavani: A Code-mixed Speech Translation Data for 26 Languages. </li>
+          
           
       </div>
 

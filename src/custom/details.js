@@ -8,15 +8,11 @@ function Details() {
           <div style={{width:'100%'}} >
               
           <div>
-              Team
+              Web Team
           </div>
           <div className='detaildescription' >
-              <div>Members</div>
-              <div>of</div>
-              <div>the</div>
-              <div>team</div>
-              <div>are</div>
-              <div>displayed</div>
+              <div>Anshul Agarwal</div>
+              <div>Hritik Sharma</div>
           </div>
           </div>
       </div>
@@ -28,9 +24,9 @@ function Details() {
                   Contact
               </div>
               <div className='detaildescription' >
-              <div>Phone: 987654312 </div>
-              <div>Email: email@email.com</div>
               <div>Jivnesh Sandhan </div>
+              <div>Email: jivneshsandhan@gmail.com</div>
+              
                   
               </div>
               </div>
