@@ -1,4 +1,4 @@
-import {BrowserRouter as HashRouter, Router, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Home from '../src/pages/home'
 import React, { useState } from 'react';
@@ -29,22 +29,19 @@ function App() {
     setwidth(window.innerWidth)
   })
   return (<div className='App' >
-      <HashRouter basename='/'>
-      <div>
+      <Router basename="/">
+      <Routes>
         <Route index element={<Home width={width} />} />
         <Route path="/publications" element={<Publications/> } />
         <Route path="/team" element={<Team/>} />
-        {/* <Route path="/jj" element={<JJ/>}/> */}
+        <Route path="/jj" element={<JJ/>}/>
         <Route path="/resources" element={<Resources/>} />
         <Route path='/dp' element={<Dp/>}/>
         {/* <Route path="/CC" element={<CC />} /> */}
-      </div>
-    </HashRouter>
+      </Routes>
+    </Router>
   </div>
   );
 }
-const Home = () => <div><h2>Home</h2></div>
-const Publications = () => <div><h2>Publications</h2></div>
-const Resources = () => <div><h2>Resources</h2></div>
-const Dp = () => <div><h2>DepAnnotator</h2></div>
+
 export default App;
