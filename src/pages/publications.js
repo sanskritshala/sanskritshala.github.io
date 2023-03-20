@@ -17,8 +17,8 @@ function publications({width}) {
     
           <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Laxmidhar Behera, Pawan Goyal. Systematic Investigation of Strategies
 Tailored for Low-Resource Settings for Low-Resource Dependency Parsing. Proceedings
-of the European Chapter of the Association for Computational Linguistics, EACL 2023*,
-Dubrovnik, Croatia. [Communicated]</li>
+of the European Chapter of the Association for Computational Linguistics, EACL 2023,
+Dubrovnik, Croatia.</li>
           <li><span style={{fontWeight:'bold'}} >Jivnesh Sandhan</span>, Rathin Singha, Narein Rao, Suvendu Samanta, Laxmidhar Behera,
 Pawan Goyal. TransLIST: A Transformer-Based Linguistically Informed Sanskrit Tokenizer.
 Proceedings of the Conference on Empirical Methods in Natural Language Processing,

@@ -38,10 +38,10 @@ function team({width}) {
       B.Tech Students
     </div>
     <div style={{textAlign:'left',paddingTop:20}} >
-    <div className='listnames' >1. Hrithik Sharma, IIT Kanpur </div>
-    <div className='listnames' >2. Anshul Agarwal, IIT Kanpur </div>
-    <div className='listnames' >3. Ayush Daksh, IIT Kharagpur </div>
-    <div className='listnames' >4. Ashish Gupta, IIT Kharagpur </div>
+    <div className='listnames' >1. Anshul Agarwal, IIT Kanpur </div>
+    <div className='listnames' >2. Hrithik Sharma, IIT Kanpur </div>
+    <div className='listnames' >3. Ashish Gupta, IIT Kharagpur </div>
+    <div className='listnames' >4. Ayush Daksh, IIT Kharagpur </div>
     </div>
     </div>
 

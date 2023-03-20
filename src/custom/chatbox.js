@@ -10,8 +10,26 @@ function Chatbox({setval,val,cc,setcc}) {
     var jj=[]
     const [input,setinput]=useState('')
     var responses={
-        "Select the topic or write your question below.":['Search','Shlokas','Chatbot','Graph','Text','Recommendations'],
-        "reply forSearch":['How to search','What type of search query','Search Data','Search Help']
+        "Can you please let me know how can I help you?":["Give me a demo",'Motivation behind SanskritShala','Applications of SanskritShala', 'More about modules'],
+        "Motivation behind SanskritShala":['To improve the accessibily of Sanskrit manuscript','Applications of SanskritShala','Main menu',"Thanks"],
+        "To improve the accessibily of Sanskrit manuscript":['Main menu','Thanks'],
+        "Thanks":["Thanks for visiting our platform.","We appreciate your feedback"],
+        "Applications of SanskritShala":['It can serve a annotation tooklit','Eventually can be used for pedalogical purposes','More about modules','Main menu'],
+        "It can serve a annotation tooklit":['Main menu', "Thanks"],
+        "Eventually can be used for pedalogical purposes":['Main menu', "Thanks"],
+        "Give me a demo":["Check here: https://youtu.be/x0X31Y9k0mw",'Main menu', "Thanks"],
+        "Check here: https://youtu.be/x0X31Y9k0mw":['Main menu', "Thanks"],
+        "Main menu":["Give me a demo",'Motivation behind SanskritShala','Applications of SanskritShala', 'More about modules'],
+        "More about modules":['Word Segmentation','Morphological Tagger','Dependency Parser','Compound Idetifier'],
+        "Word Segmentation":['Click on its app to use it',"Paper:",'Code:','Main menu','Thanks'],
+        "Morphological Tagger":['Click on its app to use it',"Paper",'Code:','Main menu','Thanks'],
+        "Dependency Parser":['Click on its app to use it',"Paper:",'Code:','Main menu','Thanks'],
+        "Compound Idetifier":['Click on its app to use it',"Paper:",'Code:','Main menu','Thanks'],
+        "Click on its app to use it":['Main menu', "Thanks",'We appreciate your feedback'],
+        "Thanks for visiting our platform.":['Please write us at: jivneshsandhan@gmail.com'],
+        "We appreciate your feedback":['Please write us at: jivneshsandhan@gmail.com','Done'],
+        "Please write us at: jivneshsandhan@gmail.com":['Done'],
+        "Done":['Have a nice day!']
     }
     cc.map(values=>(
         jj.push(values)
@@ -39,7 +57,7 @@ function Chatbox({setval,val,cc,setcc}) {
                             onClick={()=>{
                                 jj.reverse();
                                 jj.push({user:values})
-                                jj.push({bot:'reply for'+values})
+                                jj.push({bot:values})
                                 setcc(jj)
                             }}
                             >
@@ -58,7 +76,7 @@ function Chatbox({setval,val,cc,setcc}) {
                                 {values.bot&&<div style={{width:'100%',display:'flex',justifyContent:'left'}} >
                                     <p style={{
                                 marginLeft:4,
-                                backgroundColor:'orange',
+                                backgroundColor:'rgba(145, 8, 255, 0.56)',
                                 paddingLeft:12,
                                 paddingRight:12,
                                 paddingTop:12,
@@ -78,7 +96,7 @@ function Chatbox({setval,val,cc,setcc}) {
                                 <div style={{width:'100%',display:'flex',justifyContent:'right'}} >
                                 <div style={{
                                     marginRight:4,
-                                    backgroundColor:'rgba(5, 8, 0, 0.733)',
+                                    backgroundColor:'rgba(100, 109, 118, 0.733)',
                                     paddingRight:12,
                                     paddingLeft:12,
                                     borderTopLeftRadius:12,
@@ -118,7 +136,7 @@ function Chatbox({setval,val,cc,setcc}) {
                     marginLeft:10,
                     marginRight:10,
                     paddingLeft:20,
-                    backgroundColor:'khaki',
+                    backgroundColor:'rgba(248, 249, 250, 0.733)',
                     borderStyle:'solid',
                     
                     
@@ -152,7 +170,7 @@ function Chatbox({setval,val,cc,setcc}) {
 
                 <img src={chatbot} style={{borderRadius:'50%',marginTop:4,marginBottom:4,marginLeft:4}} />
                 <span style={{color:'white',alignSelf:'center',paddingLeft:12}} >
-                    Sanskrit Bot
+                    SanskritShala Bot
                     </span>
                 <FaFacebookMessenger color='white' className='chattitleicon' style={{alignSelf:'center',
             transition:'color .4s'    ,paddingRight:12
